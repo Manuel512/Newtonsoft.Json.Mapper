@@ -11,7 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newtonsoft.Json.Mapper.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newtonsoft.Json.Mapper", "Newtonsoft.Json.Mapper\Newtonsoft.Json.Mapper.csproj", "{7886438A-8E85-4C6B-AA87-70FA9D47F23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Mapper.Service", "Newtonsoft.Json.Mapper.Service\Newtonsoft.Json.Mapper.Service.csproj", "{FE3258C9-B15F-487D-9661-12A458439902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newtonsoft.Json.Mapper.Service", "Newtonsoft.Json.Mapper.Service\Newtonsoft.Json.Mapper.Service.csproj", "{FE3258C9-B15F-487D-9661-12A458439902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22D42D2E-D17E-4C54-832B-BDE07D618D9E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
