@@ -90,7 +90,8 @@ namespace Newtonsoft.Json.Mapper
             var obj = new JObject();
 
             rules.ForEach(p => {
-                obj.Add(new JProperty(p.To, token[p.From]));
+                var tokenValue = token != null ? token[p.From] : null;
+                obj.Add(new JProperty(p.To, tokenValue));
             });
 
             return obj;
